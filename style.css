@@ -1,0 +1,622 @@
+html{
+    font-family: sans-serif;
+} 
+.parall{
+    background-image:linear-gradient(76deg, rgba(193, 195, 204, 0.83) 35%, rgba(193, 195, 204, 0.28) 65%), url(https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg);
+    background-size: cover;
+    background-attachment: fixed; 
+    height: 700px;
+}
+.nuuk{
+    background-color: #e47312;
+    width: 100px;
+    height: 30px; 
+    padding: 36px 34px 36px 34px;
+    margin: 55px 0 0 100px;
+    cursor: pointer;
+}
+.top{
+    display: flex; 
+}
+.tbar{
+    padding: 32px 70px 0 521px; 
+    margin: 54px -46px 21px 0;
+    background-color: white;
+    display: flex;
+}
+.tbars{
+    padding: 0 24px 0 0; 
+    font-size: 12px;
+    font-weight: 700; 
+    color: #414147;
+    font-style: bold;
+    cursor: pointer;
+}
+.free{
+    padding: 36px 24px 0 24px;
+    margin: 53px 0 19px 0; 
+    color: white;
+    font-size: 12px;
+    background-color: #e47312;
+    cursor: pointer;
+}
+.tbars:hover{
+    color: #e47312;
+}
+.titl{
+    color: white; 
+    font-size: 70px; 
+    padding: 40px 0 0 140px; 
+}
+.par{
+    color: white;
+    padding: 0 0 0 136px;
+    margin: -46px 0 0 0;
+    font-size: 20px; 
+}
+.dfree{
+    background-color: #e47312;
+    color: white;
+    padding: 20px 35px 20px 35px;
+    margin: 42px 1110px 0 130px;
+    cursor: pointer;
+}
+.cal{
+    width: 25px;
+    height: 25px;
+}
+.maic{
+    display: flex;
+    padding-left: 22px;
+    margin: -5px 0 0 512px;
+    background: linear-gradient(to top,rgb(236, 82, 36),#e47312);
+}
+.subc{ 
+    padding: 40px 10px 40px 120px ; 
+    /* background-color: #e47312; */
+    color: white;
+    text-align: center;
+    margin: 0 0 0 0;
+} 
+h4{
+    font-size: 15px;
+}
+.how{
+    cursor: pointer;
+}
+.how:hover{
+    text-decoration: underline 2px white;
+}
+.con{
+    font-size: 16px;
+}
+.ico{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(25, 23, 23);
+    padding: 15px 15px 15px 15px; 
+    margin-top: -2px;
+    cursor: pointer;
+}
+.telo{
+display: flex;
+}
+.icoc{
+padding-top: 150px;
+padding-left:42px ;
+padding-bottom: -3px;
+}
+.down{
+display: flex;
+padding: 200px 0 0 250px;
+position: relative;
+}
+.one{
+font-size: 40px;
+}
+.two{
+font-size: 16px;
+padding-left: 600px;
+padding-top: 10px;
+color: rgb(215, 189, 189);
+} 
+.down::before{
+margin: 3rem;
+    content: "SERVICES";
+    position: absolute; 
+    color: rgb(250, 245, 245);
+    font-size: 130px;
+    padding-top: 120px;
+    padding-left: 100px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.dtxt{
+height: 60px;
+width: 60px;
+}
+.dta{
+font-size: 20px;
+}
+.lor{
+font-size: 16px;
+color: rgb(154, 151, 146);
+}
+.lea{
+font-size: 15px;
+color: rgb(154, 151, 146);
+cursor: pointer;
+}
+.lea:hover{
+text-decoration: underline 3px orange;
+}
+.dmai{
+display: flex;
+}
+.smai{
+padding: 70px 0 0 60px;  
+}
+.dtr{
+display: flex;
+padding-top: 150px;
+padding-left: 170px;
+padding-right: 100px;
+}
+.dim{
+height: 380px;
+width: 600px;
+}
+.tet{
+padding-left: 80px;
+}
+.tet::before{ 
+    content: "ABOUT";
+    position: absolute; 
+    color: rgb(255, 243, 243);  
+    font-size: 120px;
+    z-index: -1;
+    margin-top: -40px;
+    margin-left: -30px;
+}
+.tot{
+font-size: 40px;
+}
+.pot{
+font-size: 18px;
+color: #a2a2b6;    
+}
+.mot{
+font-size: 17px;
+color: #a2a2b6;
+cursor: pointer;
+}
+.mot:hover{
+text-decoration: underline 3px solid orange; 
+}
+.mnu{
+display: flex;
+padding-left: 60px;
+padding-top: 70px;
+padding-right: 100px;
+}
+.snu{
+padding-left: 80px;
+}
+.hnu{
+font-size: 60px;
+color: #e47312;
+}
+.pnu{
+font-size: 16px; 
+margin-top: -25px;
+color: #a2a2b6;
+padding-right: 80px;
+} 
+.uwr{
+display: flex;
+padding-top: 200px;
+}
+.lri{
+font-size: 40px;
+padding-left: 150px;
+}
+.lri::before{ 
+    content: "PROJECTS";
+    position: absolute; 
+    color: rgb(255, 248, 248);
+    font-size: 110px;
+    margin: -50px 0 0 -80px; 
+    z-index: -1;
+}
+.lci{
+font-size: 40px;
+padding-left: 150px;
+}
+.lci::before{ 
+    content: "TEAM";
+    position: absolute; 
+    color: rgb(255, 248, 248);
+    font-size: 110px;
+    margin: -50px 0 0 -40px; 
+    z-index: -1;
+}
+.rri{
+font-size: 16px;
+color: #a2a2b6;
+padding: 20px 0 0 850px;
+cursor: pointer;
+}
+.mim{
+display: flex;
+padding-top: 100px;
+}
+.iim{
+height: 410px;
+width: 460px;
+padding-left: 30px; 
+}
+/* .ocircle{
+justify-content: center;
+align-items: center; 
+height: 410px;
+width: 460px;
+padding-left: 30px; 
+} */
+/* .circle{
+width: 50px;
+height: 50px;
+background-color: #e47312; 
+} */
+.bmi{ 
+padding-top: 80px; 
+padding-bottom: 80px;
+margin: 30px;
+background-image: linear-gradient(72deg, #e47312, rgba(255, 99, 97, 0.78)), url(https://nuuk-e3eaa.firebaseapp.com/assets/img/banner-2.jpg);
+background-size: cover;
+background-attachment: fixed;
+color: white; 
+}
+.ctop{
+text-align: center;
+font-size: 40px;
+}
+.cmid{
+text-align: center;
+padding-top: 20px;
+font-size: 20px;
+}
+.cdow{
+text-align: center;
+padding-top: 50px;
+cursor: pointer;
+font-size: 18px;
+}
+.cdow:hover{
+text-decoration: underline 2px white;
+}
+.uwr{ 
+margin-top: -110px;
+} 
+.rri:hover{
+text-decoration: underline 2px #e47312;
+}
+.pmai{
+display: flex;
+padding: 70px 0 0 10px; 
+padding-bottom: 150px;
+}
+.psu{ 
+padding-left: 65px;
+}
+.phi{
+width: 280px;
+height: 350px;
+position: absolute;
+z-index: -1;   
+background-size: cover;
+}
+.tph{
+font-size: 18px;
+padding-left: 40px;
+}
+.ttph{
+font-size: 15px;
+color: #a2a2b6;
+margin-top: -5px;
+padding-left: 40px; 
+margin-bottom: 23px;
+} 
+.btt{
+margin-top: -100px; 
+background-color: whitesmoke;
+border: 2px solid white;
+} 
+.icod{
+width: 20px;
+    height: 20px;
+    background-color: #e47312;
+    padding: 15px 15px 15px 15px; 
+    margin-top: -2px;
+    margin-bottom: -2px;
+    border-bottom: 1px solid white;
+    cursor: pointer; 
+} 
+/* .bord{ 
+border: 1px solid black;
+background-color: aqua;
+} */
+.cout{
+background-color: #e47312; 
+padding: 10px;
+color: white;
+font-size: 40px;
+border-radius: 100px;
+text-align: center;  
+}
+.meb{
+display: flex;
+padding: 0px 0 0 150px;
+} 
+.sseb{
+display: flex;
+width: 60%;
+}
+.sebc{
+width: 100%;
+text-align: center;
+}
+
+.seb{
+width: 100%;
+}
+.ebt{
+font-size: 40px;
+}
+.ebt::before{
+content: "CLIENTS";
+    position: absolute; 
+    color: rgb(255, 248, 248);
+    font-size: 110px;
+    margin: -50px 0 0 -40px; 
+    z-index: -1;
+}
+.ebtt{
+font-size: 18px;
+margin-top: -15px;
+color: #a2a2b6;
+}
+.ebts{
+color: #a2a2b6;
+padding-top: 30px;
+cursor: pointer;
+}
+.ebts:hover{
+text-decoration: underline 3px solid #e47312;
+}
+.cout{
+padding: 17px 0 0 0;
+margin: 0 40px 0 40px; 
+} 
+.tlast{
+font-size: 40px;
+padding: 130px 0 0 100px;
+}
+.plast{
+font-size: 14px;
+padding: 155px 0 0 850px;
+color: #a2a2b6;
+cursor: pointer;
+}
+.plast:hover{
+text-decoration: underline 2px solid #e47312;
+}
+.last{
+display: flex;
+}
+.oml{
+display: flex;
+padding-top: 100px;
+}
+.sil{
+padding: 50px 0 0 84px;
+cursor: pointer;
+}
+.sii{
+width: 400px;
+height: 300px;
+position: absolute;
+z-index: -1;
+}
+.ssil{
+padding-left: 350px;
+}
+.sida{
+background-color: #e47312;
+color: white;
+padding: 25px 20px 25px 20px;
+margin: 0 177px 0 -25px;
+}
+.simt{
+background-color: white;
+color: #a2a2b6;
+margin: 0 175px 0 -25px;
+padding: 8px 20px 8px 20px;
+}
+.sunt{
+background-color: #e47312;
+padding: 25px 0px 18px 43px;
+margin: 165px 178px 0 0;
+}
+.stb{
+font-size: 20px;
+color: white;
+}
+.stt{
+font-size: 15px;
+color:rgb(218, 208, 208);
+}
+.strm{
+font-size: 15px;
+color: white;
+text-decoration: underline 2px solid rgb(180, 163, 163);
+}
+.strm:hover{
+text-decoration: underline 2px solid white;
+}
+.logos{
+display: flex;
+background-color: #e47312;
+padding: 60px 0px 48px 100px;
+margin: 60px 36px 0 40px;
+}
+.plog{
+font-size: 16px;
+color: white;
+}
+.flog{
+font-size: 25px;
+color: white;
+padding-left: 100px;
+cursor: pointer;
+}
+.bbim{
+width: 25px;
+height: 25px; 
+}
+.bmai{
+display: flex;
+padding-left: 80px;
+padding-top: 50px; 
+background-color: rgb(3, 3, 49);
+color: white;
+margin: 0 100px 0 100px;
+}
+.bsai{
+width: 30%;
+padding-left: 30px;
+}
+.liba{
+display: flex;
+}
+.lineo{
+width: 200px;
+height: 3px; 
+border-radius: 4px;
+background-color: #e47312; 
+margin: 20px 0 0 20px;
+}
+.bhot{
+font-size: 16px;
+}
+.bhtt{
+font-size: 14px;
+}
+.bhtrt{
+font-size: 13px;
+}
+.imif{
+display: flex;
+}
+.bnum{
+font-size: 16px;
+padding-left: 40px;
+}
+.nuukd{
+background-color: #e47312;
+width: 100px;
+height: 30px; 
+padding: 36px 34px 36px 34px;
+margin: 410px 0 0 -1247px;
+cursor: pointer;
+} 
+@media screen and (max-width: 400px) {
+    .bodyp{
+        width: fit-content;
+    }
+}
+@media screen and (max-width: 400px) {
+    .maic{
+      visibility: hidden;
+    }
+}
+@media screen and (max-width: 400px) {
+    .down, .dmai, .mnu, .tet, .uwr, .mim, .uwr, .pmai, .meb,.sseb,.last,.oml,.logos,.bmai, .dtr{
+      display: block; 
+    }
+}
+@media screen and (max-width: 400px) {
+    .tbar{
+      visibility: hidden;
+    }
+}
+@media screen and (max-width: 400px) {
+    .two, .down{
+       padding-left: 5px;
+       margin: 0;
+    }
+}
+@media screen and (max-width: 400px) {
+    .one{
+      font-size: 24px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .dmai,.dmad{
+      padding-top: 20px;
+      padding-left: 5px;
+      margin: 0;
+    }
+}
+@media screen and (max-width: 400px) {
+    .rri,.uwr,.lri,.mnu,.snu,.dtr,.dim,.tet,.iim,.pmai,.psu,.last,.plast{
+        padding-left: 5px;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 400px) {
+    .btt{
+        width: 270px;
+    }
+} 
+@media screen and (max-width: 400px) {
+    .pmss,.meb,.seb,.ebt,.ebts,.sebc,.sseb,.mebc{
+        padding-left: 0px;
+        margin: 0;
+    }
+} 
+@media screen and (max-width: 400px) {
+    .ebtt{
+        padding-left: 0px;
+        margin-top: 9px;
+    }
+} 
+@media screen and (max-width: 400px) {
+    .cout{
+         margin: 0 641px 0 160px;
+    }
+} 
+@media screen and (max-width: 400px) {
+    .sebc{
+         text-align: left;
+         padding-left: 10px;
+         padding-top: 20px;
+         margin-left:-9px;
+    }
+} 
+@media screen and (max-width: 400px) {
+    .plast{
+         margin-left: -95px;
+    }
+}  
+@media screen and (max-width: 400px) {
+    .omll{
+         margin-left: -80px;
+    }
+} 
+@media screen and (max-width: 400px) {
+    .sida{
+         margin: 0 -170px 0 25px;
+    }
+} 
+
